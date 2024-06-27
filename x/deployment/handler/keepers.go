@@ -6,10 +6,10 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/x/authz"
 
-	types "github.com/akash-network/akash-api/go/node/deployment/v1beta3"
-	etypes "github.com/akash-network/akash-api/go/node/escrow/v1beta3"
+	types "github.com/spheronFdn/akash-api-fork/go/node/deployment/v1beta3"
+	etypes "github.com/spheronFdn/akash-api-fork/go/node/escrow/v1beta3"
 
-	mtypes "github.com/akash-network/akash-api/go/node/market/v1beta4"
+	mtypes "github.com/spheronFdn/akash-api-fork/go/node/market/v1beta4"
 )
 
 // MarketKeeper Interface includes market methods

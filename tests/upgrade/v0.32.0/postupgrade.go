@@ -8,20 +8,20 @@ import (
 	"context"
 	"testing"
 
-	types "github.com/akash-network/akash-api/go/node/types/v1beta3"
 	sdkclient "github.com/cosmos/cosmos-sdk/client"
 	"github.com/cosmos/cosmos-sdk/client/flags"
 	sdk "github.com/cosmos/cosmos-sdk/types"
+	types "github.com/spheronFdn/akash-api-fork/go/node/types/v1beta3"
 
 	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
 	"github.com/stretchr/testify/require"
 
-	cltypes "github.com/akash-network/akash-api/go/node/client/types"
-	ptypes "github.com/akash-network/akash-api/go/node/provider/v1beta3"
+	cltypes "github.com/spheronFdn/akash-api-fork/go/node/client/types"
+	ptypes "github.com/spheronFdn/akash-api-fork/go/node/provider/v1beta3"
 
-	"github.com/akash-network/node/app"
-	"github.com/akash-network/node/client"
-	uttypes "github.com/akash-network/node/tests/upgrade/types"
+	"github.com/spheronFdn/akash-node/app"
+	"github.com/spheronFdn/akash-node/client"
+	uttypes "github.com/spheronFdn/akash-node/tests/upgrade/types"
 )
 
 func init() {

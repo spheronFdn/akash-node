@@ -94,11 +94,11 @@ import (
 	ibchost "github.com/cosmos/ibc-go/v4/modules/core/24-host"
 	ibckeeper "github.com/cosmos/ibc-go/v4/modules/core/keeper"
 
-	apptypes "github.com/akash-network/node/app/types"
-	utypes "github.com/akash-network/node/upgrades/types"
+	apptypes "github.com/spheronFdn/akash-node/app/types"
+	utypes "github.com/spheronFdn/akash-node/upgrades/types"
 
 	// unnamed import of statik for swagger UI support
-	_ "github.com/akash-network/node/client/docs/statik"
+	_ "github.com/spheronFdn/akash-node/client/docs/statik"
 )
 
 const (

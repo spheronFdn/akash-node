@@ -3,7 +3,7 @@ package query
 import (
 	sdkclient "github.com/cosmos/cosmos-sdk/client"
 
-	types "github.com/akash-network/akash-api/go/node/deployment/v1beta3"
+	types "github.com/spheronFdn/akash-api-fork/go/node/deployment/v1beta3"
 )
 
 // Client interface

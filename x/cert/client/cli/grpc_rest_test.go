@@ -13,12 +13,12 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
 
-	types "github.com/akash-network/akash-api/go/node/cert/v1beta3"
+	types "github.com/spheronFdn/akash-api-fork/go/node/cert/v1beta3"
 
-	"github.com/akash-network/node/testutil"
-	"github.com/akash-network/node/testutil/network"
-	atypes "github.com/akash-network/node/types"
-	ccli "github.com/akash-network/node/x/cert/client/cli"
+	"github.com/spheronFdn/akash-node/testutil"
+	"github.com/spheronFdn/akash-node/testutil/network"
+	atypes "github.com/spheronFdn/akash-node/types"
+	ccli "github.com/spheronFdn/akash-node/x/cert/client/cli"
 )
 
 type GRPCRestTestSuite struct {

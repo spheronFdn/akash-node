@@ -4,8 +4,8 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 
-	types "github.com/akash-network/akash-api/go/node/deployment/v1beta3"
-	"github.com/akash-network/node/x/deployment/keeper"
+	types "github.com/spheronFdn/akash-api-fork/go/node/deployment/v1beta3"
+	"github.com/spheronFdn/akash-node/x/deployment/keeper"
 )
 
 // NewHandler returns a handler for "deployment" type messages

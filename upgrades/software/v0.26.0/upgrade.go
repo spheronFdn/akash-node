@@ -16,11 +16,11 @@ import (
 	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
 	upgradetypes "github.com/cosmos/cosmos-sdk/x/upgrade/types"
 
-	v1beta2dtypes "github.com/akash-network/akash-api/go/node/deployment/v1beta2"
-	dtypes "github.com/akash-network/akash-api/go/node/deployment/v1beta3"
+	v1beta2dtypes "github.com/spheronFdn/akash-api-fork/go/node/deployment/v1beta2"
+	dtypes "github.com/spheronFdn/akash-api-fork/go/node/deployment/v1beta3"
 
-	apptypes "github.com/akash-network/node/app/types"
-	utypes "github.com/akash-network/node/upgrades/types"
+	apptypes "github.com/spheronFdn/akash-node/app/types"
+	utypes "github.com/spheronFdn/akash-node/upgrades/types"
 )
 
 const (

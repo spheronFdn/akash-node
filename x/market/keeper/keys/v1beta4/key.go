@@ -6,9 +6,9 @@ import (
 
 	"github.com/cosmos/cosmos-sdk/types/address"
 
-	dtypes "github.com/akash-network/akash-api/go/node/deployment/v1beta3"
-	types "github.com/akash-network/akash-api/go/node/market/v1beta4"
-	"github.com/akash-network/akash-api/go/sdkutil"
+	dtypes "github.com/spheronFdn/akash-api-fork/go/node/deployment/v1beta3"
+	types "github.com/spheronFdn/akash-api-fork/go/node/market/v1beta4"
+	"github.com/spheronFdn/akash-api-fork/go/sdkutil"
 )
 
 func filterToPrefix(prefix []byte, owner string, dseq uint64, gseq, oseq uint32, provider string) ([]byte, error) {

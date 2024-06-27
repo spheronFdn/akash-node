@@ -3,12 +3,12 @@
 package v0_32_0
 
 import (
-	types "github.com/akash-network/akash-api/go/node/market/v1beta4"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	sdkmodule "github.com/cosmos/cosmos-sdk/types/module"
+	types "github.com/spheronFdn/akash-api-fork/go/node/market/v1beta4"
 
-	utypes "github.com/akash-network/node/upgrades/types"
-	"github.com/akash-network/node/x/market/keeper/keys/v1beta4"
+	utypes "github.com/spheronFdn/akash-node/upgrades/types"
+	"github.com/spheronFdn/akash-node/x/market/keeper/keys/v1beta4"
 )
 
 type marketMigrations struct {

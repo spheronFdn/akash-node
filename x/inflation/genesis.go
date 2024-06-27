@@ -8,9 +8,9 @@ import (
 
 	abci "github.com/tendermint/tendermint/abci/types"
 
-	types "github.com/akash-network/akash-api/go/node/inflation/v1beta3"
+	types "github.com/spheronFdn/akash-api-fork/go/node/inflation/v1beta3"
 
-	"github.com/akash-network/node/x/inflation/keeper"
+	"github.com/spheronFdn/akash-node/x/inflation/keeper"
 )
 
 // ValidateGenesis does validation check of the Genesis and return error in case of failure

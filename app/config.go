@@ -43,7 +43,7 @@ import (
 	ibcclient "github.com/cosmos/ibc-go/v4/modules/core/02-client/client"
 	ibchost "github.com/cosmos/ibc-go/v4/modules/core/24-host"
 
-	appparams "github.com/akash-network/node/app/params"
+	appparams "github.com/spheronFdn/akash-node/app/params"
 )
 
 var mbasics = module.NewBasicManager(

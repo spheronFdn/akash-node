@@ -1,9 +1,9 @@
-module github.com/akash-network/node
+module github.com/spheronFdn/akash-node
 
 go 1.21
 
 require (
-	github.com/akash-network/akash-api v0.0.61
+	github.com/akash-network/akash-api v0.0.61-sph
 	github.com/blang/semver/v4 v4.0.0
 	github.com/boz/go-lifecycle v0.1.1
 	github.com/cosmos/cosmos-sdk v0.45.16
@@ -78,11 +78,15 @@ require (
 	github.com/ChainSafe/go-schnorrkel v0.0.0-20200405005733-88cbf1b4c40d // indirect
 	github.com/DataDog/zstd v1.5.0 // indirect
 	github.com/HdrHistogram/hdrhistogram-go v1.1.2 // indirect
+	github.com/Masterminds/semver v1.5.0 // indirect
+	github.com/Masterminds/sprig v2.15.0+incompatible // indirect
 	github.com/Workiva/go-datastructures v1.0.53 // indirect
+	github.com/aokoli/goutils v1.0.1 // indirect
 	github.com/armon/go-metrics v0.4.1 // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/bgentry/speakeasy v0.1.1-0.20220910012023-760eaf8b6816 // indirect
 	github.com/btcsuite/btcd/btcec/v2 v2.3.2 // indirect
+	github.com/btcsuite/btcd/chaincfg/chainhash v1.0.1 // indirect
 	github.com/cespare/xxhash v1.1.0 // indirect
 	github.com/cespare/xxhash/v2 v2.2.0 // indirect
 	github.com/cockroachdb/errors v1.9.1 // indirect
@@ -127,6 +131,7 @@ require (
 	github.com/google/go-querystring v1.1.0 // indirect
 	github.com/google/gofuzz v1.2.0 // indirect
 	github.com/google/orderedcode v0.0.1 // indirect
+	github.com/google/uuid v1.4.0 // indirect
 	github.com/gorilla/handlers v1.5.1 // indirect
 	github.com/grpc-ecosystem/go-grpc-middleware v1.3.0 // indirect
 	github.com/gsterjov/go-libsecret v0.0.0-20161001094733-a6f4afe4910c // indirect
@@ -136,6 +141,8 @@ require (
 	github.com/hashicorp/golang-lru v0.5.5-0.20210104140557-80c98217689d // indirect
 	github.com/hashicorp/hcl v1.0.1-0.20191016231534-914dc3f8dd7c // indirect
 	github.com/hdevalence/ed25519consensus v0.0.0-20220222234857-c00d1f31bab3 // indirect
+	github.com/huandu/xstrings v1.3.3 // indirect
+	github.com/imdario/mergo v0.3.13 // indirect
 	github.com/improbable-eng/grpc-web v0.14.1 // indirect
 	github.com/inconshreveable/mousetrap v1.1.0 // indirect
 	github.com/jmhodges/levigo v1.0.1-0.20191019112844-b572e7f4cdac // indirect
@@ -163,6 +170,8 @@ require (
 	github.com/prometheus/client_model v0.3.0 // indirect
 	github.com/prometheus/common v0.42.0 // indirect
 	github.com/prometheus/procfs v0.10.1 // indirect
+	github.com/pseudomuto/protoc-gen-doc v1.5.1 // indirect
+	github.com/pseudomuto/protokit v0.2.0 // indirect
 	github.com/rcrowley/go-metrics v0.0.0-20201227073835-cf1acfcdf475 // indirect
 	github.com/rivo/uniseg v0.2.0 // indirect
 	github.com/rogpeppe/go-internal v1.9.0 // indirect
@@ -171,6 +180,7 @@ require (
 	github.com/sasha-s/go-deadlock v0.3.1 // indirect
 	github.com/spf13/afero v1.9.5 // indirect
 	github.com/spf13/jwalterweatherman v1.1.0 // indirect
+	github.com/spheronFdn/akash-api-fork v0.0.61-sph // indirect
 	github.com/stretchr/objx v0.5.0 // indirect
 	github.com/subosito/gotenv v1.4.2 // indirect
 	github.com/syndtr/goleveldb v1.0.1-0.20210819022825-2ae1ddf74ef7 // indirect

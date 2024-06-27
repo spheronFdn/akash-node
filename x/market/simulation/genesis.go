@@ -3,8 +3,8 @@ package simulation
 import (
 	"github.com/cosmos/cosmos-sdk/types/module"
 
-	dtypes "github.com/akash-network/akash-api/go/node/deployment/v1beta3"
-	types "github.com/akash-network/akash-api/go/node/market/v1beta4"
+	dtypes "github.com/spheronFdn/akash-api-fork/go/node/deployment/v1beta3"
+	types "github.com/spheronFdn/akash-api-fork/go/node/market/v1beta4"
 )
 
 var minDeposit, _ = dtypes.DefaultParams().MinDepositFor("uakt")

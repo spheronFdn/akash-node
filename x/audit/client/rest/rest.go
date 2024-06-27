@@ -9,9 +9,9 @@ import (
 	"github.com/cosmos/cosmos-sdk/types/rest"
 	"github.com/gorilla/mux"
 
-	types "github.com/akash-network/akash-api/go/node/audit/v1beta3"
+	types "github.com/spheronFdn/akash-api-fork/go/node/audit/v1beta3"
 
-	"github.com/akash-network/node/x/audit/query"
+	"github.com/spheronFdn/akash-node/x/audit/query"
 )
 
 // RegisterRoutes registers all query routes

@@ -19,10 +19,10 @@ import (
 	"github.com/gogo/protobuf/grpc"
 	"github.com/pkg/errors"
 
-	"github.com/akash-network/node/x/take/keeper"
-	"github.com/akash-network/node/x/take/simulation"
+	"github.com/spheronFdn/akash-node/x/take/keeper"
+	"github.com/spheronFdn/akash-node/x/take/simulation"
 
-	types "github.com/akash-network/akash-api/go/node/take/v1beta3"
+	types "github.com/spheronFdn/akash-api-fork/go/node/take/v1beta3"
 )
 
 var (

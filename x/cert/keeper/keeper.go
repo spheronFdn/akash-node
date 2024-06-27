@@ -4,7 +4,7 @@ import (
 	"github.com/cosmos/cosmos-sdk/codec"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	types "github.com/akash-network/akash-api/go/node/cert/v1beta3"
+	types "github.com/spheronFdn/akash-api-fork/go/node/cert/v1beta3"
 )
 
 // Keeper of the provider store

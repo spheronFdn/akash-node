@@ -23,16 +23,16 @@ import (
 	ibctransferkeeper "github.com/cosmos/ibc-go/v4/modules/apps/transfer/keeper"
 	ibckeeper "github.com/cosmos/ibc-go/v4/modules/core/keeper"
 
-	akeeper "github.com/akash-network/node/x/audit/keeper"
-	ckeeper "github.com/akash-network/node/x/cert/keeper"
-	dkeeper "github.com/akash-network/node/x/deployment/keeper"
-	escrowkeeper "github.com/akash-network/node/x/escrow/keeper"
-	agovkeeper "github.com/akash-network/node/x/gov/keeper"
-	ikeeper "github.com/akash-network/node/x/inflation/keeper"
-	mkeeper "github.com/akash-network/node/x/market/keeper"
-	pkeeper "github.com/akash-network/node/x/provider/keeper"
-	astakingkeeper "github.com/akash-network/node/x/staking/keeper"
-	tkeeper "github.com/akash-network/node/x/take/keeper"
+	akeeper "github.com/spheronFdn/akash-node/x/audit/keeper"
+	ckeeper "github.com/spheronFdn/akash-node/x/cert/keeper"
+	dkeeper "github.com/spheronFdn/akash-node/x/deployment/keeper"
+	escrowkeeper "github.com/spheronFdn/akash-node/x/escrow/keeper"
+	agovkeeper "github.com/spheronFdn/akash-node/x/gov/keeper"
+	ikeeper "github.com/spheronFdn/akash-node/x/inflation/keeper"
+	mkeeper "github.com/spheronFdn/akash-node/x/market/keeper"
+	pkeeper "github.com/spheronFdn/akash-node/x/provider/keeper"
+	astakingkeeper "github.com/spheronFdn/akash-node/x/staking/keeper"
+	tkeeper "github.com/spheronFdn/akash-node/x/take/keeper"
 )
 
 var ErrEmptyFieldName = errors.New("empty field name")

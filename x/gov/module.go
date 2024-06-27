@@ -18,11 +18,11 @@ import (
 	"github.com/cosmos/cosmos-sdk/types/module"
 	sim "github.com/cosmos/cosmos-sdk/types/simulation"
 
-	types "github.com/akash-network/akash-api/go/node/gov/v1beta3"
+	types "github.com/spheronFdn/akash-api-fork/go/node/gov/v1beta3"
 
-	utypes "github.com/akash-network/node/upgrades/types"
-	"github.com/akash-network/node/x/gov/keeper"
-	"github.com/akash-network/node/x/gov/simulation"
+	utypes "github.com/spheronFdn/akash-node/upgrades/types"
+	"github.com/spheronFdn/akash-node/x/gov/keeper"
+	"github.com/spheronFdn/akash-node/x/gov/simulation"
 )
 
 var (

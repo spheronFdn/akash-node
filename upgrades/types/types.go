@@ -11,7 +11,7 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	upgradetypes "github.com/cosmos/cosmos-sdk/x/upgrade/types"
 
-	apptypes "github.com/akash-network/node/app/types"
+	apptypes "github.com/spheronFdn/akash-node/app/types"
 )
 
 var (

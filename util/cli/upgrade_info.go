@@ -65,7 +65,7 @@ func UpgradeInfoFromTag(ctx context.Context, tag string, pretty bool) (string, e
 		Binaries: make(map[string]string),
 	}
 
-	urlBase := fmt.Sprintf("https://github.com/akash-network/node/releases/download/%s", tag)
+	urlBase := fmt.Sprintf("https://github.com/spheronFdn/akash-node/releases/download/%s", tag)
 	scanner := bufio.NewScanner(body)
 	for scanner.Scan() {
 		tuple := strings.Split(scanner.Text(), "  ")

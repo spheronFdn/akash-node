@@ -5,9 +5,9 @@ import (
 	"github.com/cosmos/cosmos-sdk/client/flags"
 	"github.com/spf13/cobra"
 
-	types "github.com/akash-network/akash-api/go/node/market/v1beta4"
+	types "github.com/spheronFdn/akash-api-fork/go/node/market/v1beta4"
 
-	aclient "github.com/akash-network/node/client"
+	aclient "github.com/spheronFdn/akash-node/client"
 )
 
 func cmdGetBids() *cobra.Command {

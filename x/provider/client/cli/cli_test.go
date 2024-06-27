@@ -10,11 +10,11 @@ import (
 	"github.com/cosmos/cosmos-sdk/client/flags"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	types "github.com/akash-network/akash-api/go/node/provider/v1beta3"
+	types "github.com/spheronFdn/akash-api-fork/go/node/provider/v1beta3"
 
-	"github.com/akash-network/node/testutil"
-	"github.com/akash-network/node/testutil/network"
-	"github.com/akash-network/node/x/provider/client/cli"
+	"github.com/spheronFdn/akash-node/testutil"
+	"github.com/spheronFdn/akash-node/testutil/network"
+	"github.com/spheronFdn/akash-node/x/provider/client/cli"
 )
 
 type IntegrationTestSuite struct {

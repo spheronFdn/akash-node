@@ -7,11 +7,11 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	sdkmodule "github.com/cosmos/cosmos-sdk/types/module"
 
-	dmigrate "github.com/akash-network/akash-api/go/node/deployment/v1beta3/migrate"
-	mv1beta2 "github.com/akash-network/akash-api/go/node/market/v1beta2"
-	mv1beta3 "github.com/akash-network/akash-api/go/node/market/v1beta3"
+	dmigrate "github.com/spheronFdn/akash-api-fork/go/node/deployment/v1beta3/migrate"
+	mv1beta2 "github.com/spheronFdn/akash-api-fork/go/node/market/v1beta2"
+	mv1beta3 "github.com/spheronFdn/akash-api-fork/go/node/market/v1beta3"
 
-	utypes "github.com/akash-network/node/upgrades/types"
+	utypes "github.com/spheronFdn/akash-node/upgrades/types"
 )
 
 type marketMigrations struct {

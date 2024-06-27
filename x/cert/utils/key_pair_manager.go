@@ -19,11 +19,11 @@ import (
 
 	"go.step.sm/crypto/pemutil"
 
-	types "github.com/akash-network/akash-api/go/node/cert/v1beta3"
 	sdkclient "github.com/cosmos/cosmos-sdk/client"
 	sdk "github.com/cosmos/cosmos-sdk/types"
+	types "github.com/spheronFdn/akash-api-fork/go/node/cert/v1beta3"
 
-	certerrors "github.com/akash-network/node/x/cert/errors"
+	certerrors "github.com/spheronFdn/akash-node/x/cert/errors"
 )
 
 var (

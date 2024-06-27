@@ -7,7 +7,7 @@ import (
 	"sync"
 	"time"
 
-	ptypes "github.com/akash-network/akash-api/go/node/provider/v1beta3"
+	ptypes "github.com/spheronFdn/akash-api-fork/go/node/provider/v1beta3"
 	"github.com/theckman/yacspin"
 
 	tmtypes "github.com/tendermint/tendermint/types"
@@ -26,18 +26,18 @@ import (
 	ibchost "github.com/cosmos/ibc-go/v4/modules/core/24-host"
 	ibccoretypes "github.com/cosmos/ibc-go/v4/modules/core/types"
 
-	atypes "github.com/akash-network/akash-api/go/node/audit/v1beta3"
-	ctypes "github.com/akash-network/akash-api/go/node/cert/v1beta3"
-	dtypes "github.com/akash-network/akash-api/go/node/deployment/v1beta3"
-	etypes "github.com/akash-network/akash-api/go/node/escrow/v1beta3"
-	mtypes "github.com/akash-network/akash-api/go/node/market/v1beta4"
+	atypes "github.com/spheronFdn/akash-api-fork/go/node/audit/v1beta3"
+	ctypes "github.com/spheronFdn/akash-api-fork/go/node/cert/v1beta3"
+	dtypes "github.com/spheronFdn/akash-api-fork/go/node/deployment/v1beta3"
+	etypes "github.com/spheronFdn/akash-api-fork/go/node/escrow/v1beta3"
+	mtypes "github.com/spheronFdn/akash-api-fork/go/node/market/v1beta4"
 
-	"github.com/akash-network/node/x/audit"
-	"github.com/akash-network/node/x/cert"
-	"github.com/akash-network/node/x/deployment"
-	"github.com/akash-network/node/x/escrow"
-	"github.com/akash-network/node/x/market"
-	"github.com/akash-network/node/x/provider"
+	"github.com/spheronFdn/akash-node/x/audit"
+	"github.com/spheronFdn/akash-node/x/cert"
+	"github.com/spheronFdn/akash-node/x/deployment"
+	"github.com/spheronFdn/akash-node/x/escrow"
+	"github.com/spheronFdn/akash-node/x/market"
+	"github.com/spheronFdn/akash-node/x/provider"
 )
 
 type (

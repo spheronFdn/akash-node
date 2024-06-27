@@ -8,7 +8,7 @@ import (
 	govkeeper "github.com/cosmos/cosmos-sdk/x/gov/keeper"
 	govtypes "github.com/cosmos/cosmos-sdk/x/gov/types"
 
-	agovkeeper "github.com/akash-network/node/x/gov/keeper"
+	agovkeeper "github.com/spheronFdn/akash-node/x/gov/keeper"
 )
 
 type GovPreventSpamDecorator struct {

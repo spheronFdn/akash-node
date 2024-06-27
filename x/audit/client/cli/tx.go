@@ -4,19 +4,19 @@ import (
 	"fmt"
 	"sort"
 
-	cltypes "github.com/akash-network/akash-api/go/node/client/types"
 	"github.com/spf13/cobra"
+	cltypes "github.com/spheronFdn/akash-api-fork/go/node/client/types"
 
 	sdkclient "github.com/cosmos/cosmos-sdk/client"
 	"github.com/cosmos/cosmos-sdk/client/flags"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	types "github.com/akash-network/akash-api/go/node/audit/v1beta3"
-	ptypes "github.com/akash-network/akash-api/go/node/provider/v1beta3"
-	akashtypes "github.com/akash-network/akash-api/go/node/types/v1beta3"
-	atypes "github.com/akash-network/akash-api/go/node/types/v1beta3"
+	types "github.com/spheronFdn/akash-api-fork/go/node/audit/v1beta3"
+	ptypes "github.com/spheronFdn/akash-api-fork/go/node/provider/v1beta3"
+	akashtypes "github.com/spheronFdn/akash-api-fork/go/node/types/v1beta3"
+	atypes "github.com/spheronFdn/akash-api-fork/go/node/types/v1beta3"
 
-	aclient "github.com/akash-network/node/client"
+	aclient "github.com/spheronFdn/akash-node/client"
 )
 
 // GetTxCmd returns the transaction commands for audit module

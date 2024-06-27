@@ -12,11 +12,11 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	sdkquery "github.com/cosmos/cosmos-sdk/types/query"
 
-	types "github.com/akash-network/akash-api/go/node/market/v1beta4"
+	types "github.com/spheronFdn/akash-api-fork/go/node/market/v1beta4"
 
-	"github.com/akash-network/node/testutil"
-	"github.com/akash-network/node/testutil/state"
-	"github.com/akash-network/node/x/market/keeper"
+	"github.com/spheronFdn/akash-node/testutil"
+	"github.com/spheronFdn/akash-node/testutil/state"
+	"github.com/spheronFdn/akash-node/x/market/keeper"
 )
 
 type grpcTestSuite struct {

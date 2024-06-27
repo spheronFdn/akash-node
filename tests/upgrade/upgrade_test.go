@@ -27,11 +27,11 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
 	// init sdk config
-	_ "github.com/akash-network/akash-api/go/sdkutil"
+	_ "github.com/spheronFdn/akash-api-fork/go/sdkutil"
 
-	"github.com/akash-network/node/pubsub"
-	uttypes "github.com/akash-network/node/tests/upgrade/types"
-	"github.com/akash-network/node/util/cli"
+	"github.com/spheronFdn/akash-node/pubsub"
+	uttypes "github.com/spheronFdn/akash-node/tests/upgrade/types"
+	"github.com/spheronFdn/akash-node/util/cli"
 )
 
 const (

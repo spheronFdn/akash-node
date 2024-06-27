@@ -10,15 +10,15 @@ import (
 	"github.com/spf13/cobra"
 	"gopkg.in/yaml.v3"
 
-	deploymentTypes "github.com/akash-network/akash-api/go/node/deployment/v1beta3"
-	types "github.com/akash-network/akash-api/go/node/escrow/v1beta3"
+	deploymentTypes "github.com/spheronFdn/akash-api-fork/go/node/deployment/v1beta3"
+	types "github.com/spheronFdn/akash-api-fork/go/node/escrow/v1beta3"
 
-	marketTypes "github.com/akash-network/akash-api/go/node/market/v1beta4"
+	marketTypes "github.com/spheronFdn/akash-api-fork/go/node/market/v1beta4"
 
-	aclient "github.com/akash-network/node/client"
-	netutil "github.com/akash-network/node/util/network"
-	"github.com/akash-network/node/x/deployment/client/cli"
-	"github.com/akash-network/node/x/escrow/client/util"
+	aclient "github.com/spheronFdn/akash-node/client"
+	netutil "github.com/spheronFdn/akash-node/util/network"
+	"github.com/spheronFdn/akash-node/x/deployment/client/cli"
+	"github.com/spheronFdn/akash-node/x/escrow/client/util"
 )
 
 func GetQueryCmd() *cobra.Command {

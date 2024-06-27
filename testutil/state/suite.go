@@ -8,23 +8,23 @@ import (
 	"github.com/stretchr/testify/mock"
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 
-	atypes "github.com/akash-network/akash-api/go/node/audit/v1beta3"
-	ttypes "github.com/akash-network/akash-api/go/node/take/v1beta3"
+	atypes "github.com/spheronFdn/akash-api-fork/go/node/audit/v1beta3"
+	ttypes "github.com/spheronFdn/akash-api-fork/go/node/take/v1beta3"
 
-	dtypes "github.com/akash-network/akash-api/go/node/deployment/v1beta3"
-	etypes "github.com/akash-network/akash-api/go/node/escrow/v1beta3"
-	mtypes "github.com/akash-network/akash-api/go/node/market/v1beta4"
-	ptypes "github.com/akash-network/akash-api/go/node/provider/v1beta3"
+	dtypes "github.com/spheronFdn/akash-api-fork/go/node/deployment/v1beta3"
+	etypes "github.com/spheronFdn/akash-api-fork/go/node/escrow/v1beta3"
+	mtypes "github.com/spheronFdn/akash-api-fork/go/node/market/v1beta4"
+	ptypes "github.com/spheronFdn/akash-api-fork/go/node/provider/v1beta3"
 
-	"github.com/akash-network/node/app"
-	akeeper "github.com/akash-network/node/x/audit/keeper"
-	dkeeper "github.com/akash-network/node/x/deployment/keeper"
-	ekeeper "github.com/akash-network/node/x/escrow/keeper"
-	emocks "github.com/akash-network/node/x/escrow/keeper/mocks"
-	mhooks "github.com/akash-network/node/x/market/hooks"
-	mkeeper "github.com/akash-network/node/x/market/keeper"
-	pkeeper "github.com/akash-network/node/x/provider/keeper"
-	tkeeper "github.com/akash-network/node/x/take/keeper"
+	"github.com/spheronFdn/akash-node/app"
+	akeeper "github.com/spheronFdn/akash-node/x/audit/keeper"
+	dkeeper "github.com/spheronFdn/akash-node/x/deployment/keeper"
+	ekeeper "github.com/spheronFdn/akash-node/x/escrow/keeper"
+	emocks "github.com/spheronFdn/akash-node/x/escrow/keeper/mocks"
+	mhooks "github.com/spheronFdn/akash-node/x/market/hooks"
+	mkeeper "github.com/spheronFdn/akash-node/x/market/keeper"
+	pkeeper "github.com/spheronFdn/akash-node/x/provider/keeper"
+	tkeeper "github.com/spheronFdn/akash-node/x/take/keeper"
 )
 
 // TestSuite encapsulates a functional Akash nodes data stores for

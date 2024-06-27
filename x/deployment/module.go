@@ -21,16 +21,16 @@ import (
 	bankkeeper "github.com/cosmos/cosmos-sdk/x/bank/keeper"
 	govtypes "github.com/cosmos/cosmos-sdk/x/gov/types"
 
-	v1beta1types "github.com/akash-network/akash-api/go/node/deployment/v1beta1"
-	v1beta2types "github.com/akash-network/akash-api/go/node/deployment/v1beta2"
-	types "github.com/akash-network/akash-api/go/node/deployment/v1beta3"
+	v1beta1types "github.com/spheronFdn/akash-api-fork/go/node/deployment/v1beta1"
+	v1beta2types "github.com/spheronFdn/akash-api-fork/go/node/deployment/v1beta2"
+	types "github.com/spheronFdn/akash-api-fork/go/node/deployment/v1beta3"
 
-	utypes "github.com/akash-network/node/upgrades/types"
-	"github.com/akash-network/node/x/deployment/client/cli"
-	"github.com/akash-network/node/x/deployment/client/rest"
-	"github.com/akash-network/node/x/deployment/handler"
-	"github.com/akash-network/node/x/deployment/keeper"
-	"github.com/akash-network/node/x/deployment/simulation"
+	utypes "github.com/spheronFdn/akash-node/upgrades/types"
+	"github.com/spheronFdn/akash-node/x/deployment/client/cli"
+	"github.com/spheronFdn/akash-node/x/deployment/client/rest"
+	"github.com/spheronFdn/akash-node/x/deployment/handler"
+	"github.com/spheronFdn/akash-node/x/deployment/keeper"
+	"github.com/spheronFdn/akash-node/x/deployment/simulation"
 )
 
 // type check to ensure the interface is properly implemented

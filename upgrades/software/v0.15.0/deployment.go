@@ -3,13 +3,13 @@
 package v0_15_0
 
 import (
-	dv1beta1 "github.com/akash-network/akash-api/go/node/deployment/v1beta1"
-	dmigrate "github.com/akash-network/akash-api/go/node/deployment/v1beta2/migrate"
 	"github.com/cosmos/cosmos-sdk/codec"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	sdkmodule "github.com/cosmos/cosmos-sdk/types/module"
+	dv1beta1 "github.com/spheronFdn/akash-api-fork/go/node/deployment/v1beta1"
+	dmigrate "github.com/spheronFdn/akash-api-fork/go/node/deployment/v1beta2/migrate"
 
-	utypes "github.com/akash-network/node/upgrades/types"
+	utypes "github.com/spheronFdn/akash-node/upgrades/types"
 )
 
 type deploymentMigrations struct {

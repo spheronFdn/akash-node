@@ -6,7 +6,7 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/stretchr/testify/assert"
 
-	types "github.com/akash-network/akash-api/go/node/escrow/v1beta3"
+	types "github.com/spheronFdn/akash-api-fork/go/node/escrow/v1beta3"
 )
 
 const denom = "uakt"

@@ -5,11 +5,11 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	_ "github.com/akash-network/node/testutil"
+	_ "github.com/spheronFdn/akash-node/testutil"
 
-	types "github.com/akash-network/akash-api/go/node/market/v1beta4"
+	types "github.com/spheronFdn/akash-api-fork/go/node/market/v1beta4"
 
-	keys "github.com/akash-network/node/x/market/keeper/keys/v1beta4"
+	keys "github.com/spheronFdn/akash-node/x/market/keeper/keys/v1beta4"
 )
 
 func TestKeysAndSecondaryKeysFilter(t *testing.T) {

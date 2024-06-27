@@ -8,7 +8,7 @@ import (
 	"github.com/stretchr/testify/require"
 	"golang.org/x/mod/semver"
 
-	utypes "github.com/akash-network/node/upgrades/types"
+	utypes "github.com/spheronFdn/akash-node/upgrades/types"
 )
 
 func TestUpgradesName(t *testing.T) {

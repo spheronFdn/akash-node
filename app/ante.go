@@ -7,9 +7,9 @@ import (
 	"github.com/cosmos/cosmos-sdk/x/auth/ante"
 	govkeeper "github.com/cosmos/cosmos-sdk/x/gov/keeper"
 
-	"github.com/akash-network/node/app/decorators"
-	agovkeeper "github.com/akash-network/node/x/gov/keeper"
-	astakingkeeper "github.com/akash-network/node/x/staking/keeper"
+	"github.com/spheronFdn/akash-node/app/decorators"
+	agovkeeper "github.com/spheronFdn/akash-node/x/gov/keeper"
+	astakingkeeper "github.com/spheronFdn/akash-node/x/staking/keeper"
 )
 
 // HandlerOptions extends the SDK's AnteHandler options

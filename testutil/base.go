@@ -7,11 +7,11 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/tendermint/tendermint/libs/rand"
 
-	dtypes "github.com/akash-network/akash-api/go/node/deployment/v1beta3"
-	types "github.com/akash-network/akash-api/go/node/types/v1beta3"
+	dtypes "github.com/spheronFdn/akash-api-fork/go/node/deployment/v1beta3"
+	types "github.com/spheronFdn/akash-api-fork/go/node/types/v1beta3"
 
 	// ensure sdkutil.init() to seal SDK config for the tests
-	_ "github.com/akash-network/akash-api/go/sdkutil"
+	_ "github.com/spheronFdn/akash-api-fork/go/sdkutil"
 )
 
 // CoinDenom provides ability to create coins in test functions and

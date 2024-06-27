@@ -1,9 +1,9 @@
 package cmd
 
 import (
-	"github.com/akash-network/akash-api/go/sdkutil"
 	"github.com/cosmos/cosmos-sdk/types/bech32"
 	"github.com/spf13/cobra"
+	"github.com/spheronFdn/akash-api-fork/go/sdkutil"
 )
 
 var flagBech32Prefix = "prefix"

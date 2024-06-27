@@ -37,12 +37,12 @@ import (
 	"github.com/cosmos/cosmos-sdk/x/crisis"
 	genutilcli "github.com/cosmos/cosmos-sdk/x/genutil/client/cli"
 
-	"github.com/akash-network/node/app"
-	"github.com/akash-network/node/client"
-	"github.com/akash-network/node/cmd/akash/cmd/testnetify"
-	ecmd "github.com/akash-network/node/events/cmd"
-	utilcli "github.com/akash-network/node/util/cli"
-	"github.com/akash-network/node/util/server"
+	"github.com/spheronFdn/akash-node/app"
+	"github.com/spheronFdn/akash-node/client"
+	"github.com/spheronFdn/akash-node/cmd/akash/cmd/testnetify"
+	ecmd "github.com/spheronFdn/akash-node/events/cmd"
+	utilcli "github.com/spheronFdn/akash-node/util/cli"
+	"github.com/spheronFdn/akash-node/util/server"
 )
 
 // NewRootCmd creates a new root command for akash. It is called once in the

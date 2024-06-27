@@ -3,17 +3,17 @@ package cli
 import (
 	"fmt"
 
-	cltypes "github.com/akash-network/akash-api/go/node/client/types"
 	sdkclient "github.com/cosmos/cosmos-sdk/client"
 	"github.com/cosmos/cosmos-sdk/client/flags"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/spf13/cobra"
+	cltypes "github.com/spheronFdn/akash-api-fork/go/node/client/types"
 
-	types "github.com/akash-network/akash-api/go/node/market/v1beta4"
+	types "github.com/spheronFdn/akash-api-fork/go/node/market/v1beta4"
 
-	aclient "github.com/akash-network/node/client"
-	"github.com/akash-network/node/cmd/common"
-	dcli "github.com/akash-network/node/x/deployment/client/cli"
+	aclient "github.com/spheronFdn/akash-node/client"
+	"github.com/spheronFdn/akash-node/cmd/common"
+	dcli "github.com/spheronFdn/akash-node/x/deployment/client/cli"
 )
 
 // GetTxCmd returns the transaction commands for market module

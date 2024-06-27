@@ -7,9 +7,9 @@ import (
 
 	"gopkg.in/yaml.v3"
 
-	ptypes "github.com/akash-network/akash-api/go/node/provider/v1beta3"
+	ptypes "github.com/spheronFdn/akash-api-fork/go/node/provider/v1beta3"
 
-	types "github.com/akash-network/akash-api/go/node/types/v1beta3"
+	types "github.com/spheronFdn/akash-api-fork/go/node/types/v1beta3"
 )
 
 var (

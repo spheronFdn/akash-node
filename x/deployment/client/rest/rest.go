@@ -8,7 +8,7 @@ import (
 	"github.com/cosmos/cosmos-sdk/types/rest"
 	"github.com/gorilla/mux"
 
-	"github.com/akash-network/node/x/deployment/query"
+	"github.com/spheronFdn/akash-node/x/deployment/query"
 )
 
 // RegisterRoutes registers all query routes

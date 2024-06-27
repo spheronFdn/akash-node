@@ -1,8 +1,8 @@
 package simulation
 
 import (
-	types "github.com/akash-network/akash-api/go/node/take/v1beta3"
 	"github.com/cosmos/cosmos-sdk/types/module"
+	types "github.com/spheronFdn/akash-api-fork/go/node/take/v1beta3"
 )
 
 // RandomizedGenState generates a random GenesisState for supply

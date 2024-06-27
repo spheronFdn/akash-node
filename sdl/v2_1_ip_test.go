@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"testing"
 
-	manifest "github.com/akash-network/akash-api/go/manifest/v2beta2"
+	manifest "github.com/spheronFdn/akash-api-fork/go/manifest/v2beta2"
 	"github.com/stretchr/testify/require"
 
-	types "github.com/akash-network/akash-api/go/node/types/v1beta3"
+	types "github.com/spheronFdn/akash-api-fork/go/node/types/v1beta3"
 )
 
 func TestV2_1_ParseSimpleWithIP(t *testing.T) {

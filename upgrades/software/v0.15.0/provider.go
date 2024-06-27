@@ -7,7 +7,7 @@ import (
 	"github.com/cosmos/cosmos-sdk/types/address"
 	sdkmodule "github.com/cosmos/cosmos-sdk/types/module"
 
-	utypes "github.com/akash-network/node/upgrades/types"
+	utypes "github.com/spheronFdn/akash-node/upgrades/types"
 )
 
 type providerMigrations struct {

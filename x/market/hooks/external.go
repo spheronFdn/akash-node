@@ -3,8 +3,8 @@ package hooks
 import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	dtypes "github.com/akash-network/akash-api/go/node/deployment/v1beta3"
-	mtypes "github.com/akash-network/akash-api/go/node/market/v1beta4"
+	dtypes "github.com/spheronFdn/akash-api-fork/go/node/deployment/v1beta3"
+	mtypes "github.com/spheronFdn/akash-api-fork/go/node/market/v1beta4"
 )
 
 type DeploymentKeeper interface {

@@ -15,14 +15,14 @@ import (
 	sdkrest "github.com/cosmos/cosmos-sdk/types/rest"
 	bankcli "github.com/cosmos/cosmos-sdk/x/bank/client/testutil"
 
-	types "github.com/akash-network/akash-api/go/node/market/v1beta4"
+	types "github.com/spheronFdn/akash-api-fork/go/node/market/v1beta4"
 
-	"github.com/akash-network/node/testutil"
-	"github.com/akash-network/node/testutil/network"
-	ccli "github.com/akash-network/node/x/cert/client/cli"
-	dcli "github.com/akash-network/node/x/deployment/client/cli"
-	"github.com/akash-network/node/x/market/client/cli"
-	pcli "github.com/akash-network/node/x/provider/client/cli"
+	"github.com/spheronFdn/akash-node/testutil"
+	"github.com/spheronFdn/akash-node/testutil/network"
+	ccli "github.com/spheronFdn/akash-node/x/cert/client/cli"
+	dcli "github.com/spheronFdn/akash-node/x/deployment/client/cli"
+	"github.com/spheronFdn/akash-node/x/market/client/cli"
+	pcli "github.com/spheronFdn/akash-node/x/provider/client/cli"
 )
 
 type GRPCRestTestSuite struct {

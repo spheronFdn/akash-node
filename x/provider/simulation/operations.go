@@ -14,12 +14,12 @@ import (
 	govtypes "github.com/cosmos/cosmos-sdk/x/gov/types"
 	"github.com/cosmos/cosmos-sdk/x/simulation"
 
-	types "github.com/akash-network/akash-api/go/node/provider/v1beta3"
+	types "github.com/spheronFdn/akash-api-fork/go/node/provider/v1beta3"
 
-	appparams "github.com/akash-network/node/app/params"
-	testsim "github.com/akash-network/node/testutil/sim"
-	"github.com/akash-network/node/x/provider/config"
-	"github.com/akash-network/node/x/provider/keeper"
+	appparams "github.com/spheronFdn/akash-node/app/params"
+	testsim "github.com/spheronFdn/akash-node/testutil/sim"
+	"github.com/spheronFdn/akash-node/x/provider/config"
+	"github.com/spheronFdn/akash-node/x/provider/keeper"
 )
 
 // Simulation operation weights constants

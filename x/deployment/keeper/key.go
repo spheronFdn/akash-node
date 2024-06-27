@@ -6,8 +6,8 @@ import (
 
 	"github.com/cosmos/cosmos-sdk/types/address"
 
-	types "github.com/akash-network/akash-api/go/node/deployment/v1beta3"
-	"github.com/akash-network/akash-api/go/sdkutil"
+	types "github.com/spheronFdn/akash-api-fork/go/node/deployment/v1beta3"
+	"github.com/spheronFdn/akash-api-fork/go/sdkutil"
 )
 
 func deploymentKey(id types.DeploymentID) []byte {

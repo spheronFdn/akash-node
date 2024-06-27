@@ -10,8 +10,8 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/tendermint/tendermint/crypto/ed25519"
 
-	dtypes "github.com/akash-network/akash-api/go/node/deployment/v1beta3"
-	mtypes "github.com/akash-network/akash-api/go/node/market/v1beta4"
+	dtypes "github.com/spheronFdn/akash-api-fork/go/node/deployment/v1beta3"
+	mtypes "github.com/spheronFdn/akash-api-fork/go/node/market/v1beta4"
 )
 
 func Keyring(t testing.TB) keyring.Keyring {

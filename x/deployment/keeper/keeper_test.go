@@ -7,10 +7,10 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	types "github.com/akash-network/akash-api/go/node/deployment/v1beta3"
-	"github.com/akash-network/node/testutil"
-	"github.com/akash-network/node/testutil/state"
-	"github.com/akash-network/node/x/deployment/keeper"
+	types "github.com/spheronFdn/akash-api-fork/go/node/deployment/v1beta3"
+	"github.com/spheronFdn/akash-node/testutil"
+	"github.com/spheronFdn/akash-node/testutil/state"
+	"github.com/spheronFdn/akash-node/x/deployment/keeper"
 )
 
 func Test_Create(t *testing.T) {

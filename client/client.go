@@ -10,9 +10,9 @@ import (
 
 	cmtrpctypes "github.com/tendermint/tendermint/rpc/jsonrpc/types"
 
-	aclient "github.com/akash-network/akash-api/go/node/client"
-	cltypes "github.com/akash-network/akash-api/go/node/client/types"
-	"github.com/akash-network/akash-api/go/node/client/v1beta2"
+	aclient "github.com/spheronFdn/akash-api-fork/go/node/client"
+	cltypes "github.com/spheronFdn/akash-api-fork/go/node/client/types"
+	"github.com/spheronFdn/akash-api-fork/go/node/client/v1beta2"
 )
 
 var (

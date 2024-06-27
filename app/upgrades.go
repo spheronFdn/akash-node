@@ -5,9 +5,9 @@ import (
 
 	upgradetypes "github.com/cosmos/cosmos-sdk/x/upgrade/types"
 
-	utypes "github.com/akash-network/node/upgrades/types"
+	utypes "github.com/spheronFdn/akash-node/upgrades/types"
 	// nolint: revive
-	_ "github.com/akash-network/node/upgrades"
+	_ "github.com/spheronFdn/akash-node/upgrades"
 )
 
 func (app *AkashApp) registerUpgradeHandlers() error {

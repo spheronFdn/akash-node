@@ -15,11 +15,11 @@ import (
 	simappparams "github.com/cosmos/cosmos-sdk/simapp/params"
 	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
 
-	types "github.com/akash-network/akash-api/go/node/market/v1beta4"
+	types "github.com/spheronFdn/akash-api-fork/go/node/market/v1beta4"
 
-	appparams "github.com/akash-network/node/app/params"
-	testsim "github.com/akash-network/node/testutil/sim"
-	keepers "github.com/akash-network/node/x/market/handler"
+	appparams "github.com/spheronFdn/akash-node/app/params"
+	testsim "github.com/spheronFdn/akash-node/testutil/sim"
+	keepers "github.com/spheronFdn/akash-node/x/market/handler"
 )
 
 // Simulation operation weights constants

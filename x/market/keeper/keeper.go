@@ -7,10 +7,10 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	paramtypes "github.com/cosmos/cosmos-sdk/x/params/types"
 
-	dtypes "github.com/akash-network/akash-api/go/node/deployment/v1beta3"
-	types "github.com/akash-network/akash-api/go/node/market/v1beta4"
+	dtypes "github.com/spheronFdn/akash-api-fork/go/node/deployment/v1beta3"
+	types "github.com/spheronFdn/akash-api-fork/go/node/market/v1beta4"
 
-	keys "github.com/akash-network/node/x/market/keeper/keys/v1beta4"
+	keys "github.com/spheronFdn/akash-node/x/market/keeper/keys/v1beta4"
 )
 
 // TODO: use interface for all keepers, queriers

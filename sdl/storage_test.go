@@ -6,8 +6,8 @@ import (
 	"github.com/stretchr/testify/require"
 	"gopkg.in/yaml.v3"
 
-	"github.com/akash-network/akash-api/go/node/types/unit"
-	types "github.com/akash-network/akash-api/go/node/types/v1beta3"
+	"github.com/spheronFdn/akash-api-fork/go/node/types/unit"
+	types "github.com/spheronFdn/akash-api-fork/go/node/types/v1beta3"
 )
 
 func TestStorage_LegacyValid(t *testing.T) {

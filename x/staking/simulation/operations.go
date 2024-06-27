@@ -5,7 +5,7 @@ import (
 	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
 	"github.com/cosmos/cosmos-sdk/x/simulation"
 
-	"github.com/akash-network/node/x/staking/keeper"
+	"github.com/spheronFdn/akash-node/x/staking/keeper"
 )
 
 // WeightedOperations returns all the operations from the module with their respective weights

@@ -7,7 +7,7 @@ import (
 
 	"gopkg.in/yaml.v3"
 
-	"github.com/akash-network/akash-api/go/node/types/unit"
+	"github.com/spheronFdn/akash-api-fork/go/node/types/unit"
 )
 
 var (

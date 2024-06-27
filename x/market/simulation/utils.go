@@ -3,11 +3,11 @@ package simulation
 import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	types "github.com/akash-network/akash-api/go/node/market/v1beta4"
+	types "github.com/spheronFdn/akash-api-fork/go/node/market/v1beta4"
 
-	ptypes "github.com/akash-network/akash-api/go/node/provider/v1beta3"
+	ptypes "github.com/spheronFdn/akash-api-fork/go/node/provider/v1beta3"
 
-	keepers "github.com/akash-network/node/x/market/handler"
+	keepers "github.com/spheronFdn/akash-node/x/market/handler"
 )
 
 func getOrdersWithState(ctx sdk.Context, ks keepers.Keepers, state types.Order_State) []types.Order {

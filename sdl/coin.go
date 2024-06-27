@@ -12,7 +12,7 @@ import (
 // for now it supports PoC when actual pricing is specified as two fields
 // aka amount and denom. we let UnmarshalYAML to deal with that and put result
 // into Value field.
-// discussion https://github.com/akash-network/node/issues/771
+// discussion https://github.com/spheronFdn/akash-node/issues/771
 type v2Coin struct {
 	Value sdk.DecCoin `yaml:"-"`
 }

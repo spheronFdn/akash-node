@@ -12,8 +12,8 @@ import (
 	icatypes "github.com/cosmos/ibc-go/v4/modules/apps/27-interchain-accounts/types"
 	"github.com/tendermint/tendermint/libs/log"
 
-	apptypes "github.com/akash-network/node/app/types"
-	utypes "github.com/akash-network/node/upgrades/types"
+	apptypes "github.com/spheronFdn/akash-node/app/types"
+	utypes "github.com/spheronFdn/akash-node/upgrades/types"
 )
 
 const (

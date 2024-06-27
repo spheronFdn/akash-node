@@ -3,9 +3,9 @@
 package v0_28_0
 
 import (
-	mv1beta4 "github.com/akash-network/akash-api/go/node/market/v1beta4"
+	mv1beta4 "github.com/spheronFdn/akash-api-fork/go/node/market/v1beta4"
 
-	utypes "github.com/akash-network/node/upgrades/types"
+	utypes "github.com/spheronFdn/akash-node/upgrades/types"
 )
 
 func init() {

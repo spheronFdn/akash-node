@@ -3,10 +3,10 @@
 package v0_24_0
 
 import (
-	dv1beta3 "github.com/akash-network/akash-api/go/node/deployment/v1beta3"
-	mv1beta3 "github.com/akash-network/akash-api/go/node/market/v1beta3"
+	dv1beta3 "github.com/spheronFdn/akash-api-fork/go/node/deployment/v1beta3"
+	mv1beta3 "github.com/spheronFdn/akash-api-fork/go/node/market/v1beta3"
 
-	utypes "github.com/akash-network/node/upgrades/types"
+	utypes "github.com/spheronFdn/akash-node/upgrades/types"
 )
 
 func init() {

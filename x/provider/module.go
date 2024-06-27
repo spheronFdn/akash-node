@@ -21,17 +21,17 @@ import (
 	bankkeeper "github.com/cosmos/cosmos-sdk/x/bank/keeper"
 	govtypes "github.com/cosmos/cosmos-sdk/x/gov/types"
 
-	v1beta1types "github.com/akash-network/akash-api/go/node/provider/v1beta1"
-	v1beta2types "github.com/akash-network/akash-api/go/node/provider/v1beta2"
-	types "github.com/akash-network/akash-api/go/node/provider/v1beta3"
+	v1beta1types "github.com/spheronFdn/akash-api-fork/go/node/provider/v1beta1"
+	v1beta2types "github.com/spheronFdn/akash-api-fork/go/node/provider/v1beta2"
+	types "github.com/spheronFdn/akash-api-fork/go/node/provider/v1beta3"
 
-	utypes "github.com/akash-network/node/upgrades/types"
-	mkeeper "github.com/akash-network/node/x/market/keeper"
-	"github.com/akash-network/node/x/provider/client/cli"
-	"github.com/akash-network/node/x/provider/client/rest"
-	"github.com/akash-network/node/x/provider/handler"
-	"github.com/akash-network/node/x/provider/keeper"
-	"github.com/akash-network/node/x/provider/simulation"
+	utypes "github.com/spheronFdn/akash-node/upgrades/types"
+	mkeeper "github.com/spheronFdn/akash-node/x/market/keeper"
+	"github.com/spheronFdn/akash-node/x/provider/client/cli"
+	"github.com/spheronFdn/akash-node/x/provider/client/rest"
+	"github.com/spheronFdn/akash-node/x/provider/handler"
+	"github.com/spheronFdn/akash-node/x/provider/keeper"
+	"github.com/spheronFdn/akash-node/x/provider/simulation"
 )
 
 var (

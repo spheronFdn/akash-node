@@ -15,15 +15,15 @@ import (
 	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
 	upgradetypes "github.com/cosmos/cosmos-sdk/x/upgrade/types"
 
-	dtypes "github.com/akash-network/akash-api/go/node/deployment/v1beta3"
-	"github.com/akash-network/akash-api/go/node/escrow/v1beta3"
-	astakingtypes "github.com/akash-network/akash-api/go/node/staking/v1beta3"
+	dtypes "github.com/spheronFdn/akash-api-fork/go/node/deployment/v1beta3"
+	"github.com/spheronFdn/akash-api-fork/go/node/escrow/v1beta3"
+	astakingtypes "github.com/spheronFdn/akash-api-fork/go/node/staking/v1beta3"
 
-	apptypes "github.com/akash-network/node/app/types"
-	utypes "github.com/akash-network/node/upgrades/types"
-	agov "github.com/akash-network/node/x/gov"
-	astaking "github.com/akash-network/node/x/staking"
-	atake "github.com/akash-network/node/x/take"
+	apptypes "github.com/spheronFdn/akash-node/app/types"
+	utypes "github.com/spheronFdn/akash-node/upgrades/types"
+	agov "github.com/spheronFdn/akash-node/x/gov"
+	astaking "github.com/spheronFdn/akash-node/x/staking"
+	atake "github.com/spheronFdn/akash-node/x/take"
 )
 
 const (

@@ -1,4 +1,3 @@
-
 <!--
 Guiding Principles:
 
@@ -38,12 +37,12 @@ Ref: https://keepachangelog.com/en/1.0.0/
 
 ## [Unreleased]
 
-* (ibc-go) Use ibc v4.4.0 https://github.com/akash-network/node/pull/1825
+- (ibc-go) Use ibc v4.4.0 https://github.com/spheronFdn/akash-node/pull/1825
 
 ### Improvements
 
-* (sdk) Bump Cosmos SDK version to [v0.38.3](https://github.com/cosmos/cosmos-sdk/releases/tag/v0.38.3)
+- (sdk) Bump Cosmos SDK version to [v0.38.3](https://github.com/cosmos/cosmos-sdk/releases/tag/v0.38.3)
 
 ### Bug Fixes
 
-* Fix bug in ditribution and querying rewards
+- Fix bug in ditribution and querying rewards

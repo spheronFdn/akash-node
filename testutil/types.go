@@ -22,10 +22,10 @@ import (
 	tmrand "github.com/tendermint/tendermint/libs/rand"
 	dbm "github.com/tendermint/tm-db"
 
-	types "github.com/akash-network/akash-api/go/node/types/v1beta3"
+	types "github.com/spheronFdn/akash-api-fork/go/node/types/v1beta3"
 
-	"github.com/akash-network/node/app"
-	"github.com/akash-network/node/testutil/network"
+	"github.com/spheronFdn/akash-node/app"
+	"github.com/spheronFdn/akash-node/testutil/network"
 )
 
 type InterceptState func(codec.Codec, string, json.RawMessage) json.RawMessage

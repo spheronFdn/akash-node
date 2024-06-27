@@ -15,13 +15,13 @@ import (
 	banktestutil "github.com/cosmos/cosmos-sdk/x/bank/client/testutil"
 	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
 
-	types "github.com/akash-network/akash-api/go/node/deployment/v1beta3"
+	types "github.com/spheronFdn/akash-api-fork/go/node/deployment/v1beta3"
 
-	"github.com/akash-network/node/testutil"
-	clitestutil "github.com/akash-network/node/testutil/cli"
-	"github.com/akash-network/node/testutil/network"
-	ccli "github.com/akash-network/node/x/cert/client/cli"
-	"github.com/akash-network/node/x/deployment/client/cli"
+	"github.com/spheronFdn/akash-node/testutil"
+	clitestutil "github.com/spheronFdn/akash-node/testutil/cli"
+	"github.com/spheronFdn/akash-node/testutil/network"
+	ccli "github.com/spheronFdn/akash-node/x/cert/client/cli"
+	"github.com/spheronFdn/akash-node/x/deployment/client/cli"
 )
 
 type IntegrationTestSuite struct {

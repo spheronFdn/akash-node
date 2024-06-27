@@ -7,10 +7,10 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	sdkmodule "github.com/cosmos/cosmos-sdk/types/module"
 
-	dv1beta2 "github.com/akash-network/akash-api/go/node/deployment/v1beta2"
-	dmigrate "github.com/akash-network/akash-api/go/node/deployment/v1beta3/migrate"
+	dv1beta2 "github.com/spheronFdn/akash-api-fork/go/node/deployment/v1beta2"
+	dmigrate "github.com/spheronFdn/akash-api-fork/go/node/deployment/v1beta3/migrate"
 
-	utypes "github.com/akash-network/node/upgrades/types"
+	utypes "github.com/spheronFdn/akash-node/upgrades/types"
 )
 
 type deploymentMigrations struct {

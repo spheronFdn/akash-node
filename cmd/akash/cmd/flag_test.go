@@ -12,9 +12,9 @@ import (
 	"github.com/stretchr/testify/require"
 	tmcli "github.com/tendermint/tendermint/libs/cli"
 
-	"github.com/akash-network/node/app"
-	"github.com/akash-network/node/testutil"
-	testutilcli "github.com/akash-network/node/testutil/cli"
+	"github.com/spheronFdn/akash-node/app"
+	"github.com/spheronFdn/akash-node/testutil"
+	testutilcli "github.com/spheronFdn/akash-node/testutil/cli"
 )
 
 // TestContextFlags tests that all the flags which are set in client.Context are parsed correctly.

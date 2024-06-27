@@ -5,7 +5,7 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	paramtypes "github.com/cosmos/cosmos-sdk/x/params/types"
 
-	types "github.com/akash-network/akash-api/go/node/staking/v1beta3"
+	types "github.com/spheronFdn/akash-api-fork/go/node/staking/v1beta3"
 )
 
 type IKeeper interface {

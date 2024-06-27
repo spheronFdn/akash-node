@@ -15,18 +15,18 @@ import (
 	"github.com/grpc-ecosystem/grpc-gateway/runtime"
 	abci "github.com/tendermint/tendermint/abci/types"
 
-	"github.com/akash-network/akash-api/go/node/cert/v1beta1"
-	"github.com/akash-network/akash-api/go/node/cert/v1beta2"
-	types "github.com/akash-network/akash-api/go/node/cert/v1beta3"
 	"github.com/cosmos/cosmos-sdk/codec"
 	cdctypes "github.com/cosmos/cosmos-sdk/codec/types"
 	"github.com/cosmos/cosmos-sdk/types/module"
+	"github.com/spheronFdn/akash-api-fork/go/node/cert/v1beta1"
+	"github.com/spheronFdn/akash-api-fork/go/node/cert/v1beta2"
+	types "github.com/spheronFdn/akash-api-fork/go/node/cert/v1beta3"
 
-	utypes "github.com/akash-network/node/upgrades/types"
-	"github.com/akash-network/node/x/cert/client/cli"
-	"github.com/akash-network/node/x/cert/handler"
-	"github.com/akash-network/node/x/cert/keeper"
-	"github.com/akash-network/node/x/cert/simulation"
+	utypes "github.com/spheronFdn/akash-node/upgrades/types"
+	"github.com/spheronFdn/akash-node/x/cert/client/cli"
+	"github.com/spheronFdn/akash-node/x/cert/handler"
+	"github.com/spheronFdn/akash-node/x/cert/keeper"
+	"github.com/spheronFdn/akash-node/x/cert/simulation"
 )
 
 var (

@@ -3,7 +3,6 @@
 package v0_15_0
 
 import (
-	inflationtypes "github.com/akash-network/akash-api/go/node/inflation/v1beta3"
 	storetypes "github.com/cosmos/cosmos-sdk/store/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/types/module"
@@ -11,10 +10,11 @@ import (
 	upgradetypes "github.com/cosmos/cosmos-sdk/x/upgrade/types"
 	ibcconnectiontypes "github.com/cosmos/ibc-go/v4/modules/core/03-connection/types"
 	ibckeeper "github.com/cosmos/ibc-go/v4/modules/core/keeper"
+	inflationtypes "github.com/spheronFdn/akash-api-fork/go/node/inflation/v1beta3"
 	"github.com/tendermint/tendermint/libs/log"
 
-	apptypes "github.com/akash-network/node/app/types"
-	utypes "github.com/akash-network/node/upgrades/types"
+	apptypes "github.com/spheronFdn/akash-node/app/types"
+	utypes "github.com/spheronFdn/akash-node/upgrades/types"
 )
 
 const (

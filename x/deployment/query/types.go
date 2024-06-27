@@ -6,7 +6,7 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	types "github.com/akash-network/akash-api/go/node/deployment/v1beta3"
+	types "github.com/spheronFdn/akash-api-fork/go/node/deployment/v1beta3"
 )
 
 // DeploymentFilters defines flags for deployment list filter

@@ -7,9 +7,9 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	types "github.com/akash-network/akash-api/go/node/market/v1beta4"
+	types "github.com/spheronFdn/akash-api-fork/go/node/market/v1beta4"
 
-	dpath "github.com/akash-network/node/x/deployment/query"
+	dpath "github.com/spheronFdn/akash-node/x/deployment/query"
 )
 
 const (

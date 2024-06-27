@@ -20,15 +20,15 @@ import (
 	"github.com/cosmos/cosmos-sdk/types/module"
 	sim "github.com/cosmos/cosmos-sdk/types/simulation"
 
-	v1beta1types "github.com/akash-network/akash-api/go/node/escrow/v1beta1"
-	v1beta2types "github.com/akash-network/akash-api/go/node/escrow/v1beta2"
-	types "github.com/akash-network/akash-api/go/node/escrow/v1beta3"
+	v1beta1types "github.com/spheronFdn/akash-api-fork/go/node/escrow/v1beta1"
+	v1beta2types "github.com/spheronFdn/akash-api-fork/go/node/escrow/v1beta2"
+	types "github.com/spheronFdn/akash-api-fork/go/node/escrow/v1beta3"
 
-	utypes "github.com/akash-network/node/upgrades/types"
-	"github.com/akash-network/node/x/escrow/client/cli"
-	"github.com/akash-network/node/x/escrow/client/rest"
-	"github.com/akash-network/node/x/escrow/keeper"
-	"github.com/akash-network/node/x/escrow/query"
+	utypes "github.com/spheronFdn/akash-node/upgrades/types"
+	"github.com/spheronFdn/akash-node/x/escrow/client/cli"
+	"github.com/spheronFdn/akash-node/x/escrow/client/rest"
+	"github.com/spheronFdn/akash-node/x/escrow/keeper"
+	"github.com/spheronFdn/akash-node/x/escrow/query"
 )
 
 var (

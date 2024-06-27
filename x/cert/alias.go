@@ -1,9 +1,9 @@
 package cert
 
 import (
-	types "github.com/akash-network/akash-api/go/node/cert/v1beta3"
+	types "github.com/spheronFdn/akash-api-fork/go/node/cert/v1beta3"
 
-	"github.com/akash-network/node/x/cert/keeper"
+	"github.com/spheronFdn/akash-node/x/cert/keeper"
 )
 
 const (

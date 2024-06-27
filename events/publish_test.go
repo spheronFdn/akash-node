@@ -6,12 +6,12 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/stretchr/testify/assert"
 
-	dtypes "github.com/akash-network/akash-api/go/node/deployment/v1beta3"
-	mtypes "github.com/akash-network/akash-api/go/node/market/v1beta4"
-	ptypes "github.com/akash-network/akash-api/go/node/provider/v1beta3"
-	"github.com/akash-network/akash-api/go/sdkutil"
+	dtypes "github.com/spheronFdn/akash-api-fork/go/node/deployment/v1beta3"
+	mtypes "github.com/spheronFdn/akash-api-fork/go/node/market/v1beta4"
+	ptypes "github.com/spheronFdn/akash-api-fork/go/node/provider/v1beta3"
+	"github.com/spheronFdn/akash-api-fork/go/sdkutil"
 
-	"github.com/akash-network/node/testutil"
+	"github.com/spheronFdn/akash-node/testutil"
 )
 
 func Test_processEvent(t *testing.T) {

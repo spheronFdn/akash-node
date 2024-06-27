@@ -7,9 +7,9 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	abci "github.com/tendermint/tendermint/abci/types"
 
-	types "github.com/akash-network/akash-api/go/node/gov/v1beta3"
+	types "github.com/spheronFdn/akash-api-fork/go/node/gov/v1beta3"
 
-	"github.com/akash-network/node/x/gov/keeper"
+	"github.com/spheronFdn/akash-node/x/gov/keeper"
 )
 
 // ValidateGenesis does validation check of the Genesis and returns error in case of failure

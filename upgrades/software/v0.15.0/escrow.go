@@ -7,10 +7,10 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	sdkmodule "github.com/cosmos/cosmos-sdk/types/module"
 
-	ev1beta1 "github.com/akash-network/akash-api/go/node/escrow/v1beta1"
-	ev1beta2 "github.com/akash-network/akash-api/go/node/escrow/v1beta2"
+	ev1beta1 "github.com/spheronFdn/akash-api-fork/go/node/escrow/v1beta1"
+	ev1beta2 "github.com/spheronFdn/akash-api-fork/go/node/escrow/v1beta2"
 
-	utypes "github.com/akash-network/node/upgrades/types"
+	utypes "github.com/spheronFdn/akash-node/upgrades/types"
 )
 
 type escrowMigrations struct {

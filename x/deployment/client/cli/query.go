@@ -7,9 +7,9 @@ import (
 	"github.com/cosmos/cosmos-sdk/client/flags"
 	"github.com/spf13/cobra"
 
-	types "github.com/akash-network/akash-api/go/node/deployment/v1beta3"
+	types "github.com/spheronFdn/akash-api-fork/go/node/deployment/v1beta3"
 
-	aclient "github.com/akash-network/node/client"
+	aclient "github.com/spheronFdn/akash-node/client"
 )
 
 // GetQueryCmd returns the query commands for the deployment module

@@ -48,7 +48,7 @@ import (
 	"github.com/cosmos/cosmos-sdk/x/genutil"
 	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
 
-	"github.com/akash-network/node/client"
+	"github.com/spheronFdn/akash-node/client"
 )
 
 func init() {

@@ -8,15 +8,15 @@ import (
 	"github.com/cosmos/cosmos-sdk/codec"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	dv1beta1 "github.com/akash-network/akash-api/go/node/deployment/v1beta1"
-	dv1beta2 "github.com/akash-network/akash-api/go/node/deployment/v1beta2"
-	ev1beta1 "github.com/akash-network/akash-api/go/node/escrow/v1beta1"
-	ev1beta2 "github.com/akash-network/akash-api/go/node/escrow/v1beta2"
-	mv1beta1 "github.com/akash-network/akash-api/go/node/market/v1beta1"
-	mv1beta2 "github.com/akash-network/akash-api/go/node/market/v1beta2"
-	types "github.com/akash-network/akash-api/go/node/types/v1beta1"
+	dv1beta1 "github.com/spheronFdn/akash-api-fork/go/node/deployment/v1beta1"
+	dv1beta2 "github.com/spheronFdn/akash-api-fork/go/node/deployment/v1beta2"
+	ev1beta1 "github.com/spheronFdn/akash-api-fork/go/node/escrow/v1beta1"
+	ev1beta2 "github.com/spheronFdn/akash-api-fork/go/node/escrow/v1beta2"
+	mv1beta1 "github.com/spheronFdn/akash-api-fork/go/node/market/v1beta1"
+	mv1beta2 "github.com/spheronFdn/akash-api-fork/go/node/market/v1beta2"
+	types "github.com/spheronFdn/akash-api-fork/go/node/types/v1beta1"
 
-	"github.com/akash-network/node/app"
+	"github.com/spheronFdn/akash-node/app"
 )
 
 var (

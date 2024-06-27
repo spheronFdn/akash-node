@@ -6,9 +6,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/akash-network/node/sdl"
+	"github.com/spheronFdn/akash-node/sdl"
 
-	"github.com/akash-network/node/x/deployment/handler"
+	"github.com/spheronFdn/akash-node/x/deployment/handler"
 
 	sdktestdata "github.com/cosmos/cosmos-sdk/testutil/testdata"
 	sdk "github.com/cosmos/cosmos-sdk/types"
@@ -17,13 +17,13 @@ import (
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 
-	types "github.com/akash-network/akash-api/go/node/deployment/v1beta3"
+	types "github.com/spheronFdn/akash-api-fork/go/node/deployment/v1beta3"
 
-	"github.com/akash-network/node/testutil"
-	"github.com/akash-network/node/testutil/state"
-	"github.com/akash-network/node/x/deployment/handler/mocks"
-	"github.com/akash-network/node/x/deployment/keeper"
-	mkeeper "github.com/akash-network/node/x/market/keeper"
+	"github.com/spheronFdn/akash-node/testutil"
+	"github.com/spheronFdn/akash-node/testutil/state"
+	"github.com/spheronFdn/akash-node/x/deployment/handler/mocks"
+	"github.com/spheronFdn/akash-node/x/deployment/keeper"
+	mkeeper "github.com/spheronFdn/akash-node/x/market/keeper"
 )
 
 type testSuite struct {

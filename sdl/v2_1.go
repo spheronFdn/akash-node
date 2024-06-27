@@ -8,9 +8,9 @@ import (
 
 	"gopkg.in/yaml.v3"
 
-	manifest "github.com/akash-network/akash-api/go/manifest/v2beta2"
-	dtypes "github.com/akash-network/akash-api/go/node/deployment/v1beta3"
-	types "github.com/akash-network/akash-api/go/node/types/v1beta3"
+	manifest "github.com/spheronFdn/akash-api-fork/go/manifest/v2beta2"
+	dtypes "github.com/spheronFdn/akash-api-fork/go/node/deployment/v1beta3"
+	types "github.com/spheronFdn/akash-api-fork/go/node/types/v1beta3"
 )
 
 var _ SDL = (*v2_1)(nil)

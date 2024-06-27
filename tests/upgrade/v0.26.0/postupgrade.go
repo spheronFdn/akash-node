@@ -10,7 +10,7 @@ import (
 	"strings"
 	"testing"
 
-	// v1beta2dtypes "github.com/akash-network/akash-api/go/node/deployment/v1beta2"
+	// v1beta2dtypes "github.com/spheronFdn/akash-api-fork/go/node/deployment/v1beta2"
 	"github.com/cosmos/cosmos-sdk/client"
 	"github.com/cosmos/cosmos-sdk/client/flags"
 	sdk "github.com/cosmos/cosmos-sdk/types"
@@ -22,10 +22,10 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	astaking "github.com/akash-network/akash-api/go/node/staking/v1beta3"
+	astaking "github.com/spheronFdn/akash-api-fork/go/node/staking/v1beta3"
 
-	"github.com/akash-network/node/app"
-	uttypes "github.com/akash-network/node/tests/upgrade/types"
+	"github.com/spheronFdn/akash-node/app"
+	uttypes "github.com/spheronFdn/akash-node/tests/upgrade/types"
 )
 
 func init() {

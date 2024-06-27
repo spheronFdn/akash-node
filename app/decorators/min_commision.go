@@ -9,7 +9,7 @@ import (
 	"github.com/cosmos/cosmos-sdk/x/authz"
 	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
 
-	astakingkeeper "github.com/akash-network/node/x/staking/keeper"
+	astakingkeeper "github.com/spheronFdn/akash-node/x/staking/keeper"
 )
 
 type MinCommissionDecorator struct {

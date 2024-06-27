@@ -4,12 +4,12 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	bankkeeper "github.com/cosmos/cosmos-sdk/x/bank/keeper"
 
-	atypes "github.com/akash-network/akash-api/go/node/audit/v1beta3"
-	dtypes "github.com/akash-network/akash-api/go/node/deployment/v1beta3"
-	etypes "github.com/akash-network/akash-api/go/node/escrow/v1beta3"
-	ptypes "github.com/akash-network/akash-api/go/node/provider/v1beta3"
+	atypes "github.com/spheronFdn/akash-api-fork/go/node/audit/v1beta3"
+	dtypes "github.com/spheronFdn/akash-api-fork/go/node/deployment/v1beta3"
+	etypes "github.com/spheronFdn/akash-api-fork/go/node/escrow/v1beta3"
+	ptypes "github.com/spheronFdn/akash-api-fork/go/node/provider/v1beta3"
 
-	"github.com/akash-network/node/x/market/keeper"
+	"github.com/spheronFdn/akash-node/x/market/keeper"
 )
 
 type EscrowKeeper interface {

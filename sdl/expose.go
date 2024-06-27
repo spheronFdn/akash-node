@@ -4,7 +4,7 @@ import (
 	"net/url"
 	"sort"
 
-	manifest "github.com/akash-network/akash-api/go/manifest/v2beta2"
+	manifest "github.com/spheronFdn/akash-api-fork/go/manifest/v2beta2"
 	"gopkg.in/yaml.v3"
 )
 

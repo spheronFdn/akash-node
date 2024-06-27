@@ -7,9 +7,9 @@ import (
 	sdkmodule "github.com/cosmos/cosmos-sdk/types/module"
 	v043 "github.com/cosmos/cosmos-sdk/x/distribution/legacy/v043"
 
-	cv1beta2 "github.com/akash-network/akash-api/go/node/cert/v1beta2"
+	cv1beta2 "github.com/spheronFdn/akash-api-fork/go/node/cert/v1beta2"
 
-	utypes "github.com/akash-network/node/upgrades/types"
+	utypes "github.com/spheronFdn/akash-node/upgrades/types"
 )
 
 type certMigrations struct {

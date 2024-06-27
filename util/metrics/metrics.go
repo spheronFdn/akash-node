@@ -3,8 +3,8 @@ package metrics
 import (
 	"time"
 
-	"github.com/akash-network/node/util/runner"
 	"github.com/prometheus/client_golang/prometheus"
+	"github.com/spheronFdn/akash-node/util/runner"
 )
 
 const SuccessLabel = "success"

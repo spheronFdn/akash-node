@@ -6,8 +6,8 @@ import (
 	"github.com/cosmos/cosmos-sdk/codec"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	types "github.com/akash-network/akash-api/go/node/escrow/v1beta3"
 	distrtypes "github.com/cosmos/cosmos-sdk/x/distribution/types"
+	types "github.com/spheronFdn/akash-api-fork/go/node/escrow/v1beta3"
 )
 
 type AccountHook func(sdk.Context, types.Account)

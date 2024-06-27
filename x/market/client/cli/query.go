@@ -4,7 +4,7 @@ import (
 	"github.com/cosmos/cosmos-sdk/client"
 	"github.com/spf13/cobra"
 
-	types "github.com/akash-network/akash-api/go/node/market/v1beta4"
+	types "github.com/spheronFdn/akash-api-fork/go/node/market/v1beta4"
 )
 
 // GetQueryCmd returns the transaction commands for the market module

@@ -8,8 +8,8 @@ import (
 	"strings"
 	"time"
 
-	cltypes "github.com/akash-network/akash-api/go/node/client/types"
 	"github.com/spf13/cobra"
+	cltypes "github.com/spheronFdn/akash-api-fork/go/node/client/types"
 	tmrpc "github.com/tendermint/tendermint/rpc/core/types"
 
 	sdkclient "github.com/cosmos/cosmos-sdk/client"
@@ -17,13 +17,13 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/x/authz"
 
-	types "github.com/akash-network/akash-api/go/node/deployment/v1beta3"
-	"github.com/akash-network/akash-api/go/node/types/constants"
+	types "github.com/spheronFdn/akash-api-fork/go/node/deployment/v1beta3"
+	"github.com/spheronFdn/akash-api-fork/go/node/types/constants"
 
-	aclient "github.com/akash-network/node/client"
-	"github.com/akash-network/node/cmd/common"
-	"github.com/akash-network/node/sdl"
-	cutils "github.com/akash-network/node/x/cert/utils"
+	aclient "github.com/spheronFdn/akash-node/client"
+	"github.com/spheronFdn/akash-node/cmd/common"
+	"github.com/spheronFdn/akash-node/sdl"
+	cutils "github.com/spheronFdn/akash-node/x/cert/utils"
 )
 
 var (

@@ -5,9 +5,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	atypes "github.com/akash-network/akash-api/go/node/types/v1beta3"
+	atypes "github.com/spheronFdn/akash-api-fork/go/node/types/v1beta3"
 
-	"github.com/akash-network/node/sdl/util"
+	"github.com/spheronFdn/akash-node/sdl/util"
 )
 
 func TestComputeCommittedResources(t *testing.T) {

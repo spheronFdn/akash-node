@@ -1,9 +1,9 @@
 package provider
 
 import (
-	types "github.com/akash-network/akash-api/go/node/provider/v1beta3"
+	types "github.com/spheronFdn/akash-api-fork/go/node/provider/v1beta3"
 
-	"github.com/akash-network/node/x/provider/keeper"
+	"github.com/spheronFdn/akash-node/x/provider/keeper"
 )
 
 const (

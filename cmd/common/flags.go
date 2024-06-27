@@ -6,10 +6,10 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/akash-network/akash-api/go/node/client/v1beta2"
 	"github.com/cosmos/cosmos-sdk/x/params/types/proposal"
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
+	"github.com/spheronFdn/akash-api-fork/go/node/client/v1beta2"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )

@@ -5,7 +5,7 @@ import (
 	"math/rand"
 	"testing"
 
-	dtypes "github.com/akash-network/akash-api/go/node/deployment/v1beta3"
+	dtypes "github.com/spheronFdn/akash-api-fork/go/node/deployment/v1beta3"
 )
 
 // sum256Seed provides a consistent sha256 value for initial Deployment.Version

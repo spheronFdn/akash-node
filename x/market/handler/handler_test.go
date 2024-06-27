@@ -13,14 +13,14 @@ import (
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 	"github.com/tendermint/tendermint/libs/rand"
 
-	dtypes "github.com/akash-network/akash-api/go/node/deployment/v1beta3"
-	types "github.com/akash-network/akash-api/go/node/market/v1beta4"
-	ptypes "github.com/akash-network/akash-api/go/node/provider/v1beta3"
-	akashtypes "github.com/akash-network/akash-api/go/node/types/v1beta3"
+	dtypes "github.com/spheronFdn/akash-api-fork/go/node/deployment/v1beta3"
+	types "github.com/spheronFdn/akash-api-fork/go/node/market/v1beta4"
+	ptypes "github.com/spheronFdn/akash-api-fork/go/node/provider/v1beta3"
+	akashtypes "github.com/spheronFdn/akash-api-fork/go/node/types/v1beta3"
 
-	"github.com/akash-network/node/testutil"
-	"github.com/akash-network/node/testutil/state"
-	"github.com/akash-network/node/x/market/handler"
+	"github.com/spheronFdn/akash-node/testutil"
+	"github.com/spheronFdn/akash-node/testutil/state"
+	"github.com/spheronFdn/akash-node/x/market/handler"
 )
 
 type testSuite struct {

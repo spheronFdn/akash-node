@@ -7,9 +7,9 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
 
-	types "github.com/akash-network/akash-api/go/node/market/v1beta4"
+	types "github.com/spheronFdn/akash-api-fork/go/node/market/v1beta4"
 
-	dcli "github.com/akash-network/node/x/deployment/client/cli"
+	dcli "github.com/spheronFdn/akash-node/x/deployment/client/cli"
 )
 
 var (

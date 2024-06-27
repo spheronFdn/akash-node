@@ -20,16 +20,16 @@ import (
 	"github.com/cosmos/cosmos-sdk/types/module"
 	"github.com/gogo/protobuf/grpc"
 
-	v1beta1types "github.com/akash-network/akash-api/go/node/audit/v1beta1"
-	v1beta2types "github.com/akash-network/akash-api/go/node/audit/v1beta2"
-	types "github.com/akash-network/akash-api/go/node/audit/v1beta3"
+	v1beta1types "github.com/spheronFdn/akash-api-fork/go/node/audit/v1beta1"
+	v1beta2types "github.com/spheronFdn/akash-api-fork/go/node/audit/v1beta2"
+	types "github.com/spheronFdn/akash-api-fork/go/node/audit/v1beta3"
 
-	utypes "github.com/akash-network/node/upgrades/types"
-	"github.com/akash-network/node/x/audit/client/cli"
-	"github.com/akash-network/node/x/audit/client/rest"
-	"github.com/akash-network/node/x/audit/handler"
-	"github.com/akash-network/node/x/audit/keeper"
-	pkeeper "github.com/akash-network/node/x/provider/keeper"
+	utypes "github.com/spheronFdn/akash-node/upgrades/types"
+	"github.com/spheronFdn/akash-node/x/audit/client/cli"
+	"github.com/spheronFdn/akash-node/x/audit/client/rest"
+	"github.com/spheronFdn/akash-node/x/audit/handler"
+	"github.com/spheronFdn/akash-node/x/audit/keeper"
+	pkeeper "github.com/spheronFdn/akash-node/x/provider/keeper"
 )
 
 var (

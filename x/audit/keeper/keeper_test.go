@@ -13,10 +13,10 @@ import (
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 	dbm "github.com/tendermint/tm-db"
 
-	types "github.com/akash-network/akash-api/go/node/audit/v1beta3"
+	types "github.com/spheronFdn/akash-api-fork/go/node/audit/v1beta3"
 
-	"github.com/akash-network/node/testutil"
-	"github.com/akash-network/node/x/audit/keeper"
+	"github.com/spheronFdn/akash-node/testutil"
+	"github.com/spheronFdn/akash-node/x/audit/keeper"
 )
 
 func TestProviderCreate(t *testing.T) {

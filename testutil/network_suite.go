@@ -23,7 +23,7 @@ import (
 	cosmosauthtx "github.com/cosmos/cosmos-sdk/x/auth/tx"
 	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
 
-	"github.com/akash-network/node/testutil/network"
+	"github.com/spheronFdn/akash-node/testutil/network"
 )
 
 type NetworkTestSuite struct {

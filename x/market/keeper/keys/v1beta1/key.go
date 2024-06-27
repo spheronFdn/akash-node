@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"encoding/binary"
 
-	dtypes "github.com/akash-network/akash-api/go/node/deployment/v1beta1"
-	types "github.com/akash-network/akash-api/go/node/market/v1beta1"
+	dtypes "github.com/spheronFdn/akash-api-fork/go/node/deployment/v1beta1"
+	types "github.com/spheronFdn/akash-api-fork/go/node/market/v1beta1"
 )
 
 var (

@@ -5,9 +5,9 @@ import (
 
 	"github.com/cosmos/cosmos-sdk/server"
 
-	_ "github.com/akash-network/akash-api/go/sdkutil"
+	_ "github.com/spheronFdn/akash-api-fork/go/sdkutil"
 
-	"github.com/akash-network/node/cmd/akash/cmd"
+	"github.com/spheronFdn/akash-node/cmd/akash/cmd"
 )
 
 // In main we call the rootCmd

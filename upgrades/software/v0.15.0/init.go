@@ -3,14 +3,14 @@
 package v0_15_0
 
 import (
-	av1beta2 "github.com/akash-network/akash-api/go/node/audit/v1beta2"
-	cv1beta2 "github.com/akash-network/akash-api/go/node/cert/v1beta2"
-	dv1beta2 "github.com/akash-network/akash-api/go/node/deployment/v1beta2"
-	ev1beta2 "github.com/akash-network/akash-api/go/node/escrow/v1beta2"
-	mv1beta2 "github.com/akash-network/akash-api/go/node/market/v1beta2"
-	pv1beta2 "github.com/akash-network/akash-api/go/node/provider/v1beta2"
+	av1beta2 "github.com/spheronFdn/akash-api-fork/go/node/audit/v1beta2"
+	cv1beta2 "github.com/spheronFdn/akash-api-fork/go/node/cert/v1beta2"
+	dv1beta2 "github.com/spheronFdn/akash-api-fork/go/node/deployment/v1beta2"
+	ev1beta2 "github.com/spheronFdn/akash-api-fork/go/node/escrow/v1beta2"
+	mv1beta2 "github.com/spheronFdn/akash-api-fork/go/node/market/v1beta2"
+	pv1beta2 "github.com/spheronFdn/akash-api-fork/go/node/provider/v1beta2"
 
-	utypes "github.com/akash-network/node/upgrades/types"
+	utypes "github.com/spheronFdn/akash-node/upgrades/types"
 )
 
 func init() {

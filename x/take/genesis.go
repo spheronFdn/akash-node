@@ -5,9 +5,9 @@ import (
 
 	abci "github.com/tendermint/tendermint/abci/types"
 
-	types "github.com/akash-network/akash-api/go/node/take/v1beta3"
+	types "github.com/spheronFdn/akash-api-fork/go/node/take/v1beta3"
 
-	"github.com/akash-network/node/x/take/keeper"
+	"github.com/spheronFdn/akash-node/x/take/keeper"
 )
 
 // ValidateGenesis does validation check of the Genesis and return error incase of failure
